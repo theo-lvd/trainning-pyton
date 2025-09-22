@@ -1,10 +1,6 @@
-age = input("What's your age? : ")
+students = ["Alice", "Bob", "Charlie"]
 
-if age.isdigit():
-    age = int(age)
-    if age < 13:
-        print("You are a child.")
-    elif age < 18:
-        print("You are a teenager.")
-    else:
-        print("You are an adult.")
+for student in students:
+    if student == "Bob":
+        print(f"{student}")
+
