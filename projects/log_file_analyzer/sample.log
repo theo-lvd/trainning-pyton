@@ -1,0 +1,9 @@
+2025-09-24 18:30:00 INFO: System startup sequence initiated.
+2025-09-24 18:30:01 INFO: Authenticating user 'theo' from IP 192.168.1.100.
+2025-09-24 18:30:05 WARNING: CPU temperature is high on server-02 (85°C).
+2025-09-24 18:30:10 INFO: Data backup process started.
+2025-09-24 18:30:12 ERROR: Failed to connect to database 'prod_db' - Connection refused.
+2025-09-24 18:30:15 INFO: Data backup process completed successfully.
+2025-09-24 18:30:18 WARNING: API response time is slow (2500ms).
+2025-09-24 18:30:22 ERROR: Service 'payment-gateway' is not responding.
+2025-09-24 18:30:25 INFO: System shutdown sequence initiated.

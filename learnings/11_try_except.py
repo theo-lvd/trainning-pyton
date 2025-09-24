@@ -2,5 +2,5 @@ user_input = input("What's your age ? : ")
 
 try: 
     age = int(user_input)
-except:
+except ValueError:
     print("Please, put a number")
