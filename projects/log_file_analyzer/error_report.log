@@ -1,0 +1,2 @@
+2025-09-24 18:30:12 ERROR: Failed to connect to database 'prod_db' - Connection refused.
+2025-09-24 18:30:22 ERROR: Service 'payment-gateway' is not responding.
