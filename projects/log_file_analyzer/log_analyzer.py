@@ -22,12 +22,12 @@ def write_error_report(filename, error_lines) :
 
 
 #MAIN SCRIPT :
+script_dir = os.path.dirname(__file__) 
 
-log_file = "sample.log"
-error_report_file = "error_report.log"
+log_file = os.path.join(script_dir, "sample.log")
+error_report_file = os.path.join(script_dir, "error_report.log")
 
 report = analyze_log_file(log_file)
-
 write_error_report(error_report_file, report)
 
 print("Report generated successfuly.")
